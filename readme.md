@@ -12,9 +12,8 @@ Given a discrete data set, the calculator calculates the mean, variance, and sta
 3. Activate the [Standard Deviation](https://www.calculator.io/standard-deviation/ "Standard Deviation Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_standard_deviation]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Standard Deviation to the sidebar through the `Appearance -> Widgets -> Standard Deviation` menu in WordPress.
-* Add the following code: `<?php display_ci_standard_deviation(); ?>` to your template where you would like the Standard Deviation to appear.
+* Add the shortcode `[ci_standard_deviation]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_standard_deviation(); ?>` to your template where you would like the Standard Deviation to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
