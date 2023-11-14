@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.
 
-== Description ==
-
-Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.
-
 [https://www.calculator.io/standard-deviation/](https://www.calculator.io/standard-deviation/)
 
-__Standard Deviation Shortcode__
+== Usage ==
+
+Add the Standard Deviation shortcode to your page, post or sidebar:
 
 `[ci_standard_deviation]`
 
-== Installation ==
+Add the following code to your template where you would like the Standard Deviation to appear:
 
-1. Upload the /ci_standard_deviation/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Standard Deviation](https://www.calculator.io/standard-deviation/ "Standard Deviation Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Standard Deviation Usage ==
-
-* Add the shortcode `[ci_standard_deviation]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_standard_deviation(); ?>` to your template where you would like the Standard Deviation to appear.
+`<?php display_ci_standard_deviation(); ?>`
 
 == Screenshots ==
 
 1. The Standard Deviation Input Form.
 2. The Standard Deviation Calculation Results.
 
-== Libraries used in Standard Deviation ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Standard Deviation /ci_standard_deviation/ folder to the /wp-content/plugins/ directory.
+2. Activate the Standard Deviation plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Standard Deviation
