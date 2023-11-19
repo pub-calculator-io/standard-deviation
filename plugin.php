@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Standard Deviation by www.calculator.io
+Plugin Name: CI Standard deviation
 Plugin URI: https://www.calculator.io/standard-deviation/
 Description: Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.
 Version: 1.0.0
