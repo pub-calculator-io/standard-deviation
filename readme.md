@@ -3,7 +3,6 @@
 Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.
 
 ![Standard Deviation Input Form](/assets/images/screenshot-1.png "Standard Deviation Input Form")
-![Standard Deviation Calculation Results](/assets/images/screenshot-2.png "Standard Deviation Calculation Results")
 
 ## Installation
 

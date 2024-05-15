@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Standard Deviat
 == Screenshots ==
 
 1. The Standard Deviation Input Form.
-2. The Standard Deviation Calculation Results.
 
 == Installation ==
 
