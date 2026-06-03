@@ -1,6 +1,6 @@
 # Standard Deviation Widget for WordPress
 
-Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.
+Easily calculate standard deviation, variance, and mean for any sample or population data set. Get instant, step-by-step solutions with our free calculator.
 
 ![Standard Deviation Input Form](/assets/images/screenshot-1.png "Standard Deviation Input Form")
 
@@ -11,8 +11,8 @@ Given a discrete data set, the calculator calculates the mean, variance, and sta
 3. Activate the [Standard Deviation](https://www.calculator.io/standard-deviation/ "Standard Deviation Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_standard_deviation]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_standard_deviation(); ?>` to your template where you would like the Standard Deviation to appear.
+* Add the shortcode `[calcio_standard_deviation]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_standard_deviation(); ?>` to your template where you would like the Standard Deviation to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/

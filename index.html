@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="description" content="Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.">
+    <meta name="description" content="Easily calculate standard deviation, variance, and mean for any sample or population data set. Get instant, step-by-step solutions with our free calculator.">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
@@ -32,7 +32,7 @@
                 			<p class="input__title">Data Set</p>
                 			<div class="input-field row">
                 				
-                				<textarea name="data_set" id="data_set"" class="input-field__input input-field__input--textarea" placeholder="" ">9, 11, 13, 13, 15, 16, 23</textarea>
+                				<textarea name="data_set" id="data_set" class="input-field__input input-field__input--textarea" placeholder="" >9, 11, 13, 13, 15, 16, 23</textarea>
                 				
                 			</div>
                 			<div class="input-hints row">
@@ -53,25 +53,29 @@
                 		<label class="input col">
                 			<input type="hidden" value="sample" id="group"/>
                 			<p class="input__title">Group</p>
-                			<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'group', '')" value="sample" id="group-a">
+                			<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'group', '')" value="sample" id="group-1">
                 				<span class="button-switcher__text button-switcher__text--active">Sample</span>
                 			</button>
                 		</label>
                 		<label class="input col">
                 			<p class="input__title"></p>
-                			<button class="button-switcher" type="button" onclick="switcher(this, 'group', '')" value="population" id="group-b">
+                			<button class="button-switcher" type="button" onclick="switcher(this, 'group', '')" value="population" id="group-2">
                 				<span class="button-switcher__text">Population</span>
                 			</button>
                 		</label>
                 	</div>
                 </div>
                 
-                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
+                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  "
+                	>
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
+                
+                	<button class="button button--primary  ml-auto "
+                		onclick="calculate(this); animateElements();" data-action="calculate"
+                		id="action-button">Calculate</button>
                 </div>
                 
                 
@@ -79,7 +83,7 @@
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
+                <script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
